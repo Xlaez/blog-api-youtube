@@ -1,0 +1,7 @@
+database:
+  mongo:
+    url: mongodb://localhost:27017/blog-api
+port: 3000
+jsonLimit: 2mb
+routing:
+  base: "/api"
